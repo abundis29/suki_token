@@ -1,4 +1,6 @@
 pragma solidity >=0.4.21 <0.6.0;
+// import "./ConvertLib.sol";
+
 
 contract SukiToken {
     // Constructor
@@ -41,6 +43,10 @@ contract SukiToken {
         // Trsfer Event
 
     }
+
+    // function getBalanceInEth(address addr) public view returns(uint256){
+    //     return ConvertLib.convert(getBalance(addr),2);
+    // }
 
 
 
